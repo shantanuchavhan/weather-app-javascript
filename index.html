@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wheather app</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+       
+            <div id="first" class="flex">
+                <input type="text" placeholder="Enter city name" spellcheeck="false">
+                <button onclick="getWeather()">Get</button>
+            </div>
+            <div id="middle">
+                <span>
+                    
+                    <i class="fa fa-cloud" aria-hidden="true"></i>
+                </span>
+                <h1 class="temp">22 C</h1>
+                <h2 class="city">New York</h3>
+            </div>
+            <div id="last" class="flex details" >
+                <div class="col">
+                    <p class="humidity"> 50%</p>
+                    <span>Humidity</span>
+                </div>
+                <div class="col">
+                    <p class="wind"> 50%</p>
+                    <span>wind speed</span>
+                </div>
+    
+    
+            </div>
+    
+
+    </div>
+    
+</body>
+<script src="./app.js"></script>
+</html>

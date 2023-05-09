@@ -1,0 +1,96 @@
+body{
+    background-color: rgba(52, 60, 60, 0.753);
+}
+
+.container{
+    padding: 5px;
+   margin: auto;
+   width: 25%;
+   margin-top: 150px;
+   height: 270px;
+
+   padding: 32px;
+   border:2px solid rgb(253, 216, 216);
+   background-image: linear-gradient(rgba(87, 196, 255, 0.801), rgb(23, 165, 118));
+   color: white;
+   border-radius: 8px;
+   box-shadow: 3px 3px 3px 4px rgba(46, 46, 46, 0.626);
+
+    
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.container input{
+    padding-left: 16PX;
+    font-size: 16px;
+    width: 280px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+}
+
+.container button{
+    width: 50px;
+    height: 40px;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    
+    color: rgb(23, 165, 118);
+    border-radius: 8px;
+}
+
+#middle{
+    padding-top: 16px;
+    text-align: center;
+}
+#middle span i{
+    font-size: 50px;
+    
+    color: white;
+    
+    text-align: center;
+}
+
+#middle h1{
+    margin: 8PX;
+}
+
+#middle h2{
+    margin: 8px;
+}
+
+
+#last{
+    padding-top: 16px;
+    margin: auto;
+    width: 80%;
+}
+
+.container #last .col{
+    text-align: center;
+    gap: 8px;
+    align-items: center;
+}
+
+.container #last .col p{
+    background-color: rgb(8, 59, 59);
+    padding:10px 32px;
+    padding-bottom: 30px;
+    border-radius: 8px;
+    margin: 0;
+}
+
+.container #last .col span{
+    background-color: rgb(8, 59, 59);
+    position: relative;
+    top: -28px;
+    
+}
+
